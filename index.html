@@ -25,10 +25,10 @@
     <!-- header -->
     <header class="header-section">
       <div class="header-div-section container">
-        <a class="logo link" href="./index.html"
-          >Web<span class="logo-studio-black">Studio</span>
-        </a>
         <nav class="nav-section">
+          <a class="logo link" href="./index.html"
+            >Web<span class="logo-studio-black">Studio</span>
+          </a>
           <ul class="header-list list">
             <li>
               <a class="main-nav current-page studio" href="./index.html"
@@ -43,8 +43,8 @@
             </li>
           </ul>
         </nav>
-        <address class="address">
-          <ul class="header-list list">
+        <address class="address-contacts">
+          <ul class="header-list address list">
             <li>
               <a class="contact-nav" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
@@ -62,7 +62,7 @@
           aria-expanded="false"
           aria-controls="mobile-menu"
         >
-          <svg width="32" height="32" stroke="#2E2F42">
+          <svg width="32" height="22" stroke="#2E2F42">
             <use href="./images/icon.svg#icon-burger"></use>
           </svg>
         </button>
@@ -342,45 +342,45 @@
         </div>
       </section>
       <section class="our-customers">
-        <div class="container">
+        <div class="customers container">
           <h2 class="customers-title">Customers</h2>
-          <ul class="customers list">
-            <li class="customers item">
+          <ul class="customers-list">
+            <li class="customers-item list">
               <a href="" class="customers-link">
                 <svg width="104" height="56" class="customers-icon">
                   <use href="./images/icon.svg#icon-Logo-6"></use>
                 </svg>
               </a>
             </li>
-            <li class="customers item">
+            <li class="customers-item list">
               <a href="" class="customers-link">
                 <svg width="104" height="56" class="customers-icon">
                   <use href="./images/icon.svg#icon-Logo-1"></use>
                 </svg>
               </a>
             </li>
-            <li class="customers item">
+            <li class="customers-item list">
               <a href="" class="customers-link">
                 <svg width="104" height="56" class="customers-icon">
                   <use href="./images/icon.svg#icon-Logo-3"></use>
                 </svg>
               </a>
             </li>
-            <li class="customers item">
+            <li class="customers-item list">
               <a href="" class="customers-link">
                 <svg width="104" height="56" class="customers-icon">
                   <use href="./images/icon.svg#icon-Logo-5"></use>
                 </svg>
               </a>
             </li>
-            <li class="customers item">
+            <li class="customers-item list">
               <a href="" class="customers-link">
                 <svg width="104" height="56" class="customers-icon">
                   <use href="./images/icon.svg#icon-Logo-2"></use>
                 </svg>
               </a>
             </li>
-            <li class="customers item">
+            <li class="customers-item list">
               <a href="" class="customers-link">
                 <svg width="104" height="56" class="customers-icon">
                   <use href="./images/icon.svg#icon-Logo-4"></use>
@@ -532,77 +532,83 @@
     <div class="menu-container js-menu-container" id="mobile-menu">
       <button class="menu-toggle js-close-menu">
         <svg class="mobile-close-icon" width="8" height="8">
-          <use href="./images/icon.svg#icon-close-black"></use>
+          <use href="./images/icon.svg#icon-close"></use>
         </svg>
       </button>
 
       <ul class="mobile-menu list">
         <li class="mobile-menu-item-list">
-          <a href="" class="mobile-menu-item link">Studio</a>
+          <a href="./index.html" class="mobile-menu-item current-page"
+            >Studio</a
+          >
         </li>
         <li class="mobile-menu-item-list">
-          <a href="" class="mobile-menu-item link">Portfolio</a>
+          <a href="./portfolio.html" class="mobile-menu-item">Portfolio</a>
         </li>
         <li class="mobile-menu-item-list">
-          <a href="" class="mobile-menu-item link">Contacts</a>
+          <a href="" class="mobile-menu-item">Contacts</a>
         </li>
       </ul>
 
       <ul class="mobile-contacts list">
-        <li class="">
-          <a href="tel:">+11 (000) 111-11-11</a>
+        <li>
+          <a class="mobile-address number" href="tel:">+11 (000) 111-11-11</a>
         </li>
         <li>
-          <a href="mailto:">info@devstudio.com</a>
+          <a class="mobile-address email" href="mailto:">info@devstudio.com</a>
         </li>
       </ul>
 
-      <ul class="list">
-        <li>
+      <ul class="mobile-social-list list">
+        <li class="mobile-social-item">
           <a
+            class="mobile-social-icon"
             href="https://instagram.com"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Instagram icon"
           >
-            <svg width="20" height="20">
-              <use href="./images/icons.svg#icon-instagram"></use>
+            <svg class="social icon" width="20" height="20">
+              <use href="./images/icon.svg#icon-instagram"></use>
             </svg>
           </a>
         </li>
-        <li>
+        <li class="mobile-social-item">
           <a
+            class="mobile-social-icon"
             href=""
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Twitter icon"
           >
-            <svg class="socials-icon" width="20" height="20">
-              <use href="./images/icons.svg#icon-twitter"></use>
+            <svg width="20" height="20">
+              <use href="./images/icon.svg#icon-twitter"></use>
             </svg>
           </a>
         </li>
-        <li>
+        <li class="mobile-social-item">
           <a
+            class="mobile-social-icon"
             href=""
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Facebook icon"
           >
             <svg width="20" height="20">
-              <use href="./images/icons.svg#icon-facebook"></use>
+              <use href="./images/icon.svg#icon-facebook"></use>
             </svg>
           </a>
         </li>
-        <li class="socials-item">
+        <li class="mobile-social-item">
           <a
+            class="mobile-social-icon"
             href=""
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Linkedin icon"
           >
             <svg width="20" height="20">
-              <use href="./images/icons.svg#icon-linkedin"></use>
+              <use href="./images/icon.svg#icon-linkedin"></use>
             </svg>
           </a>
         </li>
