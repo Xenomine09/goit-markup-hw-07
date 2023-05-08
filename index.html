@@ -138,8 +138,12 @@
           <ul class="work list">
             <li class="duty-list">
               <img
+                srcset="
+                  ./images/duty/services_1@1x.jpg 1x,
+                  ./images/duty/services_1@2x.jpg 2x
+                "
                 class="image"
-                src="./images/services-1.jpg"
+                src="./images/duty/services_1@1x.jpg"
                 alt="design for
             desktop"
                 width="360"
@@ -147,8 +151,12 @@
             </li>
             <li class="duty-list">
               <img
+                srcset="
+                  ./images/duty/services_2@1x.jpg 1x,
+                  ./images/duty/services_2@2x.jpg 2x
+                "
                 class="image"
-                src="./images/services-2.jpg"
+                src="./images/duty/services_2@1x.jpg"
                 alt="design for
             mobile"
                 width="360"
@@ -156,8 +164,12 @@
             </li>
             <li class="duty-list">
               <img
+                srcset="
+                  ./images/duty/services_3@1x.jpg 1x,
+                  ./images/duty/services_3@2x.jpg 2x
+                "
                 class="image"
-                src="./images/services-3.jpg"
+                src="./images/duty/services_3@1x.jpg"
                 alt="comprehensive
             solution for multiple devices"
                 width="360"
@@ -172,8 +184,12 @@
           <ul class="team list">
             <li class="list-item">
               <img
+                srcset="
+                  ./images/team-img-subfolder/team_1@1x.jpg 1x,
+                  ./images/team-img-subfolder/team_1@2x.jpg
+                "
                 class="image"
-                src="./images/team-img-subfolder/team-1.jpg"
+                src="./images/team-img-subfolder/team_1@1x.jpg"
                 alt="1-employee"
                 width="264"
               />
@@ -214,8 +230,12 @@
             </li>
             <li class="list-item">
               <img
+                srcset="
+                  ./images/team-img-subfolder/team_2@1x.jpg 1x,
+                  ./images/team-img-subfolder/team_2@2x.jpg
+                "
                 class="image"
-                src="./images/team-img-subfolder/team-2.jpg"
+                src="./images/team-img-subfolder/team_2@1x.jpg"
                 alt="2-employee"
                 width="264"
               />
@@ -256,8 +276,12 @@
             </li>
             <li class="list-item">
               <img
+                srcset="
+                  ./images/team-img-subfolder/team_3@1x.jpg 1x,
+                  ./images/team-img-subfolder/team_3@2x.jpg
+                "
                 class="image"
-                src="./images/team-img-subfolder/team-3.jpg"
+                src="./images/team-img-subfolder/team_3@1x.jpg"
                 alt="3-employee"
                 width="264"
               />
@@ -298,8 +322,12 @@
             </li>
             <li class="list-item">
               <img
+                srcset="
+                  ./images/team-img-subfolder/team_4@1x.jpg 1x,
+                  ./images/team-img-subfolder/team_4@2x.jpg
+                "
                 class="image"
-                src="./images/team-img-subfolder/team-4.jpg"
+                src="./images/team-img-subfolder/team_4@1x.jpg"
                 alt="4-employee"
                 width="264"
               />
@@ -530,89 +558,97 @@
 
     <!-- mobile -->
     <div class="menu-container js-menu-container" id="mobile-menu">
-      <button class="menu-toggle js-close-menu">
-        <svg class="mobile-close-icon" width="8" height="8">
-          <use href="./images/icon.svg#icon-close"></use>
-        </svg>
-      </button>
+      <div class="mobile-menu-container">
+        <button class="menu-toggle js-close-menu" type="button">
+          <svg class="mobile-close-icon" width="8" height="8">
+            <use href="./images/icon.svg#icon-close"></use>
+          </svg>
+        </button>
+        <div class="mobile-menu-wrapper">
+          <ul class="mobile-menu list">
+            <li class="mobile-menu-item-list">
+              <a href="./index.html" class="mobile-menu-item current-page"
+                >Studio</a
+              >
+            </li>
+            <li class="mobile-menu-item-list">
+              <a href="./portfolio.html" class="mobile-menu-item">Portfolio</a>
+            </li>
+            <li class="mobile-menu-item-list">
+              <a href="" class="mobile-menu-item">Contacts</a>
+            </li>
+          </ul>
+          <div>
+            <ul class="mobile-contacts list">
+              <li>
+                <a class="mobile-address number" href="tel:"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li>
+                <a class="mobile-address email" href="mailto:"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
 
-      <ul class="mobile-menu list">
-        <li class="mobile-menu-item-list">
-          <a href="./index.html" class="mobile-menu-item current-page"
-            >Studio</a
-          >
-        </li>
-        <li class="mobile-menu-item-list">
-          <a href="./portfolio.html" class="mobile-menu-item">Portfolio</a>
-        </li>
-        <li class="mobile-menu-item-list">
-          <a href="" class="mobile-menu-item">Contacts</a>
-        </li>
-      </ul>
-
-      <ul class="mobile-contacts list">
-        <li>
-          <a class="mobile-address number" href="tel:">+11 (000) 111-11-11</a>
-        </li>
-        <li>
-          <a class="mobile-address email" href="mailto:">info@devstudio.com</a>
-        </li>
-      </ul>
-
-      <ul class="mobile-social-list list">
-        <li class="mobile-social-item">
-          <a
-            class="mobile-social-icon"
-            href="https://instagram.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Instagram icon"
-          >
-            <svg class="social icon" width="20" height="20">
-              <use href="./images/icon.svg#icon-instagram"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="mobile-social-item">
-          <a
-            class="mobile-social-icon"
-            href=""
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Twitter icon"
-          >
-            <svg width="20" height="20">
-              <use href="./images/icon.svg#icon-twitter"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="mobile-social-item">
-          <a
-            class="mobile-social-icon"
-            href=""
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Facebook icon"
-          >
-            <svg width="20" height="20">
-              <use href="./images/icon.svg#icon-facebook"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="mobile-social-item">
-          <a
-            class="mobile-social-icon"
-            href=""
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Linkedin icon"
-          >
-            <svg width="20" height="20">
-              <use href="./images/icon.svg#icon-linkedin"></use>
-            </svg>
-          </a>
-        </li>
-      </ul>
+            <ul class="mobile-social-list list">
+              <li class="mobile-social-item">
+                <a
+                  class="mobile-social-icon"
+                  href="https://instagram.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Instagram icon"
+                >
+                  <svg class="social icon" width="24" height="24">
+                    <use href="./images/icon.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mobile-social-item">
+                <a
+                  class="mobile-social-icon"
+                  href=""
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Twitter icon"
+                >
+                  <svg class="social icon" width="24" height="24">
+                    <use href="./images/icon.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mobile-social-item">
+                <a
+                  class="mobile-social-icon"
+                  href=""
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Facebook icon"
+                >
+                  <svg class="social icon" width="24" height="24">
+                    <use href="./images/icon.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mobile-social-item">
+                <a
+                  class="mobile-social-icon"
+                  href=""
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Linkedin icon"
+                >
+                  <svg class="social icon" width="24" height="24">
+                    <use href="./images/icon.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
 
     <script src="./js/modal.js"></script>
